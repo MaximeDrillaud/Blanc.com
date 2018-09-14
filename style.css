@@ -1,0 +1,152 @@
+body {
+
+background-color: grey;
+margin:0px;
+}
+
+
+.textetitre {
+    margin-left: 550px;
+    width: 400px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 3s;    
+    animation-fill-mode: forwards;
+    }  
+}
+.manur {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    animation-name: examplaire;
+    animation-duration: 3s;    
+    animation-fill-mode: forwards;
+    }
+
+
+@keyframes example {
+    from {top: 0px;}
+    to {top: 250px; background-color: black ;}}
+
+    @keyframes examplaire {
+    from {left: 0px;}
+    to {left: 250px;}}
+
+
+
+.lop {
+    color: white;
+    font-size: 20px;
+    font-style: Times New Roman ;Georgia
+    margin-right: 100px;
+}
+
+.lip {
+    color: white;
+    font-size: 90px;
+    font: Helvetica; 
+}
+
+.lip:hover{
+    letter-spacing: 10px;
+    transition: 1s;
+}
+
+.lup {
+    color: black;
+    font-size: 20px;
+    font-style: Times New Roman ;Georgia
+
+}
+.loup {
+
+    color: black;
+    font-size: 20px;
+    font-style: Times New Roman ;Georgia
+}
+
+h1 {
+    color: white;
+    font-size: 90px;
+    font-style: Times New Roman ;Georgia
+
+}
+
+.spiralContainer {
+  margin-left: 100px;
+  border-radius:50%;
+  width:600px;
+  height:600px; 
+  animation: spin 0.001s linear 0s infinite reverse;
+  animation-play-state: paused;
+}
+
+.spiral {
+  width:600px;
+  height:600px;
+  border-radius: 50%;
+  background-image: url(https://www.freeiconspng.com/uploads/color-icon-png-13.png);
+  background-repeat:no-repeat;
+  background-position:50% 50%;
+  animation: spin 6s linear 0s infinite normal;
+}
+
+.spiralContainer:hover {
+  animation-play-state: running;
+}
+
+@keyframes spin {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+
+75% {
+  font-size: 300%;
+  margin-left: 25%;
+  width: 150%;
+}
+
+.lop {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.lip {
+animation-duration: 3s;
+animation-name: slidein;
+}
+
+@keyframes slidein {
+from {
+    margin-left: 180%;
+    width: 100%; 
+  }
+
+  75% {
+    font-size: 100%;
+    margin-left: 200%;
+    width: 70%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 70%;
+  }
+}
+
+
+
+.oui {
+margin-top: 100px;
+margin-left: 750px;
+margin-right: 100px;
+box-sizing: border-box;
+font: normal 20px Helvetica;
+color: white;
+border: 2px solid black;
+padding: 8px 50px 0;
+line-height: 1.2;
+position: absolute;
+}
